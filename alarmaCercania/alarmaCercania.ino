@@ -2,7 +2,7 @@
 #include <NewPing.h>
 
 //vou usar un sonar con echo e trigger no pin 10 e a distancia limitada a 100cm
-NewPing sonar(10,10,100); // trigger y echo al pin 10, distancia máxima limitada a 50cm
+NewPing sonar(10,10,100); 
 
 //definimos variable do led
 int led=9;
